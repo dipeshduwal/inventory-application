@@ -1,0 +1,45 @@
+header {
+    padding: 40px;
+    font-family: var(--titleFont);
+    border-bottom: var(--border);
+    background-color: var(--bg2);
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  .header {
+    font-weight: 900;
+    text-decoration: none;
+    color: inherit;
+  }
+  header img {
+    width: 50px;
+  }
+  .buttonContainer {
+    padding: 50px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  .buttonContainer button {
+    border: var(--border);
+    padding: 10px 20px;
+    color: var(--text);
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    font-size: 1.3rem;
+  }
+  .buttonContainer .selected {
+    box-shadow: none;
+    background-color: var(--bg3);
+  }
